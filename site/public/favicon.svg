@@ -4,12 +4,6 @@
       <rect width="64" height="64" rx="18" ry="18" />
     </clipPath>
   </defs>
-  <rect width="64" height="64" rx="18" ry="18" fill="#ffffff" />
-  <image
-    href="/mona2.png"
-    width="64"
-    height="64"
-    preserveAspectRatio="xMidYMid slice"
-    clip-path="url(#rounded-square)"
-  />
+  <rect width="64" height="64" rx="18" ry="18" fill="#176b50" />
+  <path d="M27 12h10v15h15v10H37v15H27V37H12V27h15z" fill="#ffffff" />
 </svg>

@@ -4,9 +4,10 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
+    "dev": "astro build && node --env-file-if-exists=.env.local server.mjs",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "node --env-file-if-exists=.env.local server.mjs",
+    "test": "npm run build && node --test"
   },
   "engines": {
     "node": ">=22.12.0"
